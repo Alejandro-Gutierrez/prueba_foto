@@ -33,9 +33,12 @@
 <body>  
     {% csrf_token %}
     <div class="padre">
-        <div class="hijo">
-            <img src="{{ datos.foto.url }}" width="100px" height="100px" alt="">
-        </div>
+        {% for x in datos %}
+            <div class="hijo">
+                <img src="{{ x.foto.url }}" width="100px" height="100px" alt="">
+            </div>
+
+        {% endfor %}
     </div>
 
 
