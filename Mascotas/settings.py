@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'Mascotas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE'    :    'django.db.backends.mysql',
-        'NAME'      :    'mascotas',
-        'USER'      :    'root',
+        'NAME'      :    'alex12$mascotas',
+        'USER'      :    'alex12',
         'PASSWORD'  :    '1001346644',
-        'HOST'      :    'localhost',
+        'HOST'      :    'alex12.mysql.pythonanywhere-services.com',
     }
 }
 
