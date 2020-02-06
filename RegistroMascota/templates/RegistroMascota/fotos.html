@@ -31,6 +31,7 @@
     </style>
 </head>
 <body>  
+    {% csrf_token %}
     <div class="padre">
         <div class="hijo">
             <img src="{{ datos.foto.url }}" width="100px" height="100px" alt="">
